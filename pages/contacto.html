@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../CSS/style.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <Header id="header">
+        <h1 >
+            SHOWBIZ PUBLICIDAD DIGITAL 
+        </h1 >
+        <nav class="navegador" >
+            <ul class="lista">
+                <li ><a href="../index.html">Inicio</a></li>
+                <li ><a href="../pages/contacto.html">Contacto</a></li>
+                <li ><a href="../pages/sobre-nosotros.html">Sobre nosotros</a></li>  
+                <li ><a href="../pages/servicios.html">Servicios</a></li>  
+                <li ><a href="../pages/preguntas.html">Preguntas</a></li>     
+            </ul>
+        </nav>
+    </Header>
+    <main>
+        <h2>Contacto</h2>
+        <form>
+            <fieldset>
+                <legend>Datos de Contacto</legend>
+                <label for="nombre">Escribe tu nombre</label>
+                <input type="text" id="nombre" required>
+                <br><br>
+                <label for="e-mail">Tu correo</label>
+                <input type="email" id="e-mail" required>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Servicio solicitado</legend>
+                <!-- select-->
+                <select name="modelo" id="modelo">
+                    <option value="animacion-3d">Animación 3D Comercial</option>
+                    <option value="diseño-grafico">Diseño gráfico: Photoshop - Ilustrator</option>
+                    <option value="website-appmovil">Página web - Aplicación moviles </option>
+                </select>
+                <br><br>
+                <!--checkbox-->
+                <label for="asesoria">Asesoria</label>
+                <input type="checkbox" name="asesoria" id="asesoria">
+                <label for="cotizacion">Cotización</label>
+                <input type="checkbox" name="cotizacion" id="cotizacion">
+                <br><br>
+                <!--botón enviar-->
+                <input type="submit" value="Enviar">
+                <!--botón limpiar-->
+                <input type="reset" value="Limpiar">
+            </fieldset>
+        </form>
+
+        <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=VILLAVICENCIO META&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://embed-googlemap.com">embed-googlemap.com</a></div><style>.mapouter{position:static;text-align:right;width:300px;height:200px;}.gmap_canvas {overflow:hidden;background:none!important;width:300px;height:200px;}.gmap_iframe {width:300px!important;height:200px!important;}</style></div>
+
+        <section id="section-contact"></section>
+
+    </main>
+
+
+    <footer id="footer">SHOWBIZ PUBLICIDAD DIGITAL</footer>
+</body>
+</html>
