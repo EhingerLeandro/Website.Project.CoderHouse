@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./CSS/style.css">
     <title>Showbiz Publicidad</title>
 </head>
 <body>
     <Header id="header">
-        <img id="logo" src="./images/logo_showbiz.png">
+        <img id="logo" src="./images/logo_showbiz_2.png">
         <nav class="navegador" >
             <ul class="lista">
                 <li ><a href="index.html">Inicio</a></li>
@@ -23,52 +24,73 @@
    
     <main id="main">
         <section class="section0"></section>
-
-        <h2>¡Impulsa tu empresa con nosotros!</h2>
+        <section class="section-slider">
+            <div class="container">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000">
+                      <ol class="carousel-indicators">
+                        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+                        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+                      </ol>
+            
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="./images/slider_1.2.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="./images/slider_2.png" class="d-block w-100" alt="...">
+                        </div>
+                      </div>
+                      
+                      <a id="anterior" class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+                        <span  class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="iconz" class="sr-only">Anterior</span>
+                      </a>
+                      <a id="siguiente" class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+                        <span class="iconz" class="sr-only">Siguiente</span>
+                        <span  class="carousel-control-next-icon" aria-hidden="true"></span>
+                      </a>
+                </div>
+            </div>
+        </section>
 
         <section class="section1">
 
             <div id="image-block1">
                 <div class="cont-text1">
-                    <p class="text1">"Te ofrecemos las mejores herramientas para que tu empresa o negocio tenga un mayor alcance, y mejoren las ventas."
+                    <p class="textAlone">"Te ofrecemos las mejores herramientas para que tu empresa o negocio tenga un mayor alcance, y mejoren las ventas."
                     </p>
                 </div>
-                <div class="cont-image1">
-                    <img class="image1"  src="./images/ventas_1.jpg">
-                </div>
                 <div class="cont-image2">
-                    <img class="image2" src="./images/digital_market_1.png">
+                    <img class="image2" src="./images/digital_market.png">
                 </div>
                  <div class="cont-image3">
                     <img class="image3" src="./images/campaña_publicitaria_3.png">
                 </div> 
                 <div class="cont-text2">
-                    <p class="text2">"Nuestros precios son accesibles y pensados en ayudar a obtener un retorno tangible para nuestros usuarios"
+                    <p class="textAlone">"Nuestros precios son accesibles y pensados en ayudar a obtener un retorno tangible para nuestros usuarios."
+                    </p>
+                </div>
+                <div class="cont-text3">
+                    <p class="textAlone">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis eum, ipsam magni debitis corrupti doloribus aliquid."
                     </p>
                 </div>
                 <div class="cont-image4">
-                    <img class="image4" src="./images/campaña_publicitaria_4.png">
+                    <img class="image4" src="./images/ventas_tablet.jpg">
                 </div>
                 <div class="cont-image5">
-                    <img class="image5" src="./images/campaña_publicitaria_5.jpg">
+                    <img class="image5" src="./images/ventas_digital.jpg">
                 </div>
+        
                 <div class="cont-image6">
-                    <img class="image6" src="./images/digital_market_2.jpg">
-                </div>
-                <div class="cont-image7">
-                    <img class="image7" src="./images/ventas_2.jpg">
+                    <img class="image6" src="./images/campaña_publicitaria_5.jpg">
                 </div>
             </div>
         </section>
 
-        <section class="section2">
-            
-        </section>
+        <section class="section2"></section>
+        
     </main>
-
-    <br>
-    
-    <br>
    <footer id="footer">SHOWBIZ PUBLICIDAD DIGITAL</footer>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>
