@@ -1,0 +1,18 @@
+
+#header{
+    
+    z-index:999;
+    position:fixed;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    width: 100%;
+    background: linear-gradient(to top, #226, #559);
+    color: white;
+}
+
+#logo{
+    width:300px;
+    margin: 2%;
+}
+

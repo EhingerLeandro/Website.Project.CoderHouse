@@ -1,0 +1,102 @@
+
+
+@media screen and (max-width: 992px){
+
+    nav ul li{
+        padding:0px 5px  0px 5px;
+    }
+
+    nav ul li a{
+        font-size:20px;
+    }
+
+    .section0{
+        height:22vh;
+    }
+
+    #header{
+        flex-direction: column;
+    }
+
+    #logo{
+    width:250px;
+    }
+    .textAlone{
+        padding: 10% 10% 10% 10%;
+    }
+    #image-block1{
+        grid-template-areas: 
+        "imagen2 imagen2"
+        "texto1 texto1"
+        "imagen3 imagen3" 
+        "texto2 texto2"
+        "imagen4 imagen4"
+        "texto3 texto3"
+        "imagen5 imagen6"
+        ;
+    }
+}
+
+
+@media screen and (max-width: 768px){
+
+    nav ul li{
+        padding:0px 5px 0px 5px; 
+    }
+    nav ul li a{
+        font-size:18px;
+    }
+    
+    .text1{
+        font-size:22px;
+    }
+
+    .text2{
+        font-size:22px;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .textAlone{
+        padding: 5% 5% 5% 5%;
+    }
+
+    nav ul{
+        flex-wrap:wrap;
+    }
+    .text1{
+        font-size:18px;
+    }
+
+    .text2{
+        font-size:18px;
+    }
+    
+}
+
+@media screen and (max-width: 492px){
+    
+    nav ul li a{
+        font-size:16px;
+    }
+
+    .text1{
+        font-size:16px;
+    }
+
+    .text2{
+        font-size:16px;
+    }
+}
+
+@media screen and (max-width: 388px){
+
+    nav ul li:nth-child(n+2){
+        border-left: 0px solid #aaa;
+    }
+
+    nav ul li a{
+        font-size:14px;
+    }
+    
+}

@@ -1,0 +1,38 @@
+
+nav {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    ul{
+        display:flex;
+        justify-content:space-evenly;
+        margin: 5px 0px 5px 0px;
+        padding-left:0px;
+        list-style-type: none;
+        li{
+            display: inline-block;
+            padding:10px;
+            margin-bottom:5px;
+            text-align: center;
+            border-top: 3px solid #fff0;
+            a{
+                font-size:22px;
+                font-weight: bold;
+                color: white;
+                text-decoration: none;
+                &:focus {
+                    color:rgb(250, 156, 226);
+                }
+                
+            }
+            &:hover {
+                border-top: 3px solid #66f6;
+                background-color: #33f3;
+            }
+            
+        }
+        li:nth-child(n+2){
+            border-left: 2px solid #aaa;
+        }
+    }
+}

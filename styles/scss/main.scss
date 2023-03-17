@@ -1,0 +1,50 @@
+/*---------------Reset---------------*/
+@import "./base/reset";
+
+/*=====================LAYOUT=========================*/
+
+/*-------------Header-------------*/
+@import "./layout/header";
+
+/*-------------navbar---------------*/
+@import "./layout/nav";
+
+/*--------------footer----------------*/
+@import "./layout/footer";
+
+/*======================PAGES=========================*/
+
+/*-----------Index---Home------------*/
+@import "./pages/home.scss";
+
+/*--------------contactos------------*/
+@import "./pages/contactos";
+
+/*--------------nosotros-------------*/
+@import "./pages/nosotros";
+
+/*--------------servicios------------*/
+@import "./pages/servicios";
+
+/*-------------preguntas-------------*/
+@import "./pages/preguntas";
+
+/*====================COMPONENTS=======================*/
+
+/*-----------Carousel-bootstrap-----------*/
+@import "./components/carousel";
+
+/*=====================ABSTRACTS=======================*/
+
+/*----------media-querys-------------*/
+@import "./abstracts/media-queries";
+
+
+
+
+
+
+
+
+
+

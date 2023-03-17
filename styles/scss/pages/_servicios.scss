@@ -1,0 +1,17 @@
+#div-services{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+.block-services{
+    padding:2%;
+    width: 40vw;
+}
+
+.services{
+    
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
