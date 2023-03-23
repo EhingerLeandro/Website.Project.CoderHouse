@@ -137,6 +137,10 @@ h2 {
   font-size: 32px;
 }
 
+.hideOverflow {
+  overflow-x: hidden;
+}
+
 .shadowblock {
   box-shadow: 5px 5px 30px 5px rgba(0, 0, 0, 0.4);
 }
@@ -388,6 +392,9 @@ fieldset {
   }
   #image-block1 {
     grid-template-areas: "imagen2 imagen2" "texto1 texto1" "imagen3 imagen3" "texto2 texto2" "imagen4 imagen4" "texto3 texto3";
+  }
+  .art {
+    font-size: 14px;
   }
   .block-services {
     padding: 2%;
