@@ -4,8 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/logo_showbiz_2.png">
+    <!-- CDN animaciones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- CDN Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="./styles/css/style.css">
+    <!-- estilos personalizados -->
+    <link rel="stylesheet" type="text/css" href="./styles/css/style.css?=3">
     <title>Showbiz Publicidad</title>
 </head>
 <body>
@@ -25,15 +31,14 @@
     <main id="main">
         <section class="section0"></section>
         <section class="section-slider">
-            <div class="container">
+            <div class=" container-fluid">
                 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000">
                       <ol class="carousel-indicators">
                         <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
                         <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
                         <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
                       </ol>
-            
-                      <div class="carousel-inner">
+                      <div  class="shadowblock animate__animated animate__fadeInRight carousel-inner">
                         <div class="carousel-item active">
                           <img src="./images/slider_1.2.jpg" class="d-block w-100" alt="...">
                         </div>
@@ -57,44 +62,69 @@
             </div>
         </section>
 
-        <section class="section1">
-
-            <div id="image-block1">
-                <div class="cont-text1">
+        <section class=" section1">
+            <div  id="image-block1">
+                <div data-aos="fade-up" class="shadowblock cont-text1">
                     <p class="textAlone">"Te ofrecemos las mejores herramientas para que tu empresa o negocio tenga un mayor alcance, y mejoren las ventas."
                     </p>
                 </div>
-                <div class="cont-image2">
+                <div data-aos="fade-left" class="shadowblock cont-image2">
                     <img class="image2" src="./images/digital_market.png">
                 </div>
-                 <div class="cont-image3">
-                    <img class="image3" src="./images/campaña_publicitaria_3.png">
+                 <div data-aos="fade-right" class="shadowblock cont-image3">
+                    <img class="image3" src="./images/ventas_tablet.jpg">
                 </div> 
-                <div class="cont-text2">
+                <div data-aos="fade-up" class="shadowblock cont-text2">
                     <p class="textAlone">"Nuestros precios son accesibles y pensados en ayudar a obtener un retorno tangible para nuestros usuarios."
                     </p>
                 </div>
-                <div class="cont-text3">
+                <div data-aos="fade-up" class="shadowblock cont-text3">
                     <p class="textAlone">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis eum, ipsam magni debitis corrupti doloribus aliquid."
                     </p>
                 </div>
-                <div class="cont-image4">
-                    <img class="image4" src="./images/ventas_tablet.jpg">
-                </div>
-                <div class="cont-image5">
-                    <img class="image5" src="./images/ventas_digital.jpg">
-                </div>
-        
-                <div class="cont-image6">
-                    <img class="image6" src="./images/campaña_publicitaria_5.jpg">
+                <div data-aos="fade-left" class="shadowblock cont-image4">
+                    <img class="image4" src="./images/ventas_digital.jpg">
                 </div>
             </div>
         </section>
 
-        <section class="section2"></section>
-        
     </main>
-   <footer id="footer">SHOWBIZ PUBLICIDAD DIGITAL</footer>
+   <footer class="container-fluid">
+        <div class="row">
+            <div class="sectionFoot col-lg-4 col-xs-12">
+                <h4 class="infoDirection">Información de contacto</h4>
+                <div>
+                    <p class="infoDirection infoContact">Cra: 35 N°26A-21</p>
+                    <p class="infoDirection infoContact">Cel: 3205268494</p>
+                    <p class="infoDirection infoContact">Email: showbizdi@misitio.com</p>
+                </div>
+            </div>
+            <div class="sectionFoot col-lg-4 col-xs-12">
+                <h4 class="footitle">Siguenos</h4>
+                <div class="icon">
+                    <a  href="#"><img width="50" src="./images/png facebook.png"></a>
+                    <a  href="#"><img width="50" src="./images/png Insta.png"></a>
+                </div>
+            </div>
+            <div class="sectionFoot col-lg-4 col-xs-12 ">
+                <h4 class="footitle" >Te enviamos info a tu email</h4>
+                <form id="newsletter">
+                    <input class="formula" type="email" placeholder="Escribe tu Email">
+                    <button class="formulario" type="submit"> Enviar </button>
+                </form>
+            </div>
+            <div class="copyright">
+                <p>Copyright © 2023 Showbiz Digital</p>
+            </div>
+        </div>
+   </footer>
+   <!-- Script bootstrap -->
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+   <!-- Script Animation on scroll -->
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <!-- Script Incializador -->
+   <script>
+    AOS.init();
+  </script>
 </body>
 </html>

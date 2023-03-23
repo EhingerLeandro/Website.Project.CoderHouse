@@ -1,3 +1,29 @@
 #section-ask{
-    height:100vh;
+    display:flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    margin-bottom: 5%;
+}
+
+.blockQuest{
+    width:90vw;
+    background-color: #fff8;
+    text-align: center;
+    margin-top:1%;
+    margin-bottom: 2%;
+    border: 2px solid #3338;
+    p{
+        font-size: 1rem;
+        font-family: 'verdana';
+        margin: 2% 5% 2% 5%;
+    }
+}
+
+.quesTitleDiv{
+    background-color:#303045a0;
+    padding: 1% 0 1% 0;
+    h4{
+        color:#fff;
+        font-family: 'verdana';
+    }
 }

@@ -1,7 +1,48 @@
 footer{
-    text-align: center;
+    z-index:999;
     padding: 10px;
     margin-bottom:0px;
-    background-color: #226;
+    background: linear-gradient(#151555, #337);
     color:white;
 }
+
+.footitle{
+    text-align:center;
+}
+
+.sectionFoot{
+    margin:0% 0% 0% 0%;
+}
+
+.infoDirection{
+    margin-left:5%;
+    text-align:left;
+}
+
+.infoContact{
+    line-height:30%;
+}
+
+.icon{
+    text-align:center;
+}
+.formulario{
+    border-radius: 20px;
+    background-color: #000;
+    color:#fff;
+    padding: 2px 10px;
+    border:none;
+}
+#newsletter{
+    text-align:Center;
+}
+
+.copyright{
+    border-top: 1px solid #aaa;
+    margin-top:3%;
+    padding-top:3%;
+    text-align:center;
+}
+
+
+

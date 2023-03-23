@@ -4,8 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../images/logo_showbiz_2.png">
+    <!-- CDN animaciones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- CDN Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="../styles/css/style.css">
+    <!-- estilos personalizados -->
+    <link rel="stylesheet" type="text/css" href="../styles/css/style.css?=3">
     <title>Servicios</title>
 </head>
 <body>
@@ -25,28 +31,86 @@
     <main>
         <section class="section0"></section>
 
-        <h2>Servicios</h2>
+        <h2 class="shadowblock animate__animated animate__fadeInDown">Servicios</h2>
        
         <section id="section-service">
             <div id="div-services">
-                <div class="block-services">
-                    <img class="services" src="../images/servi_adobe_2.jpg">
+                <div data-aos="fade-up-right" class=" block-services">
+                    <div class="shadowblock blocktitleh4" >
+                        <h4 class="titleh4 ">Video y diseño gráfico Publicitario</h4>
+                    </div>
+                    <img class="shadowblock services" src="../images/servi_adobe_2.jpg">
                 </div>
-                <div class="block-services">
-                    <img class="services" src="../images/servi_anima_3D_2.png">
+                <div data-aos="fade-left"  class="block-services">
+                    <div class="shadowblock blocktitleh4" >
+                        <h4 class="titleh4 ">Animación 3D y 2D para tu Comercial</h4>
+                    </div>
+                    <img class="shadowblock services" src="../images/servi_anima_3D_2.png">
                 </div>
-                <div class="block-services">
-                    <img class="services" src="../images/servi_app_movil.jpg">
+                <div data-aos="fade-right"  class=" block-services">
+                    <div class="shadowblock blocktitleh4" >
+                        <h4 class="titleh4 ">Creamos tu Aplicación Movil</h4>
+                    </div>
+                    <img class="shadowblock services" src="../images/servi_app_movil.jpg">
                 </div>
-                <div class="block-services">
-                    <img class="services" src="../images/servi_app_web.jpg">
+                <div data-aos="fade-up-left"  class="block-services">
+                    <div class="shadowblock blocktitleh4" >
+                        <h4 class="titleh4 ">Desarrollamos tu Web</h4>
+                    </div>
+                    <img class="shadowblock services" src="../images/servi_app_web.jpg">
+                </div>
+                <div data-aos="fade-up-right" class="block-services">
+                    <div class="shadowblock blocktitleh4" >
+                        <h4 class="titleh4 ">Gestionamos tu Campaña Publicitaria</h4>
+                    </div>
+                    <img class="shadowblock services" src="../images/campaña_publicitaria_3.png">
+                </div>
+                <div data-aos="fade-left" class="block-services">
+                    <div class="shadowblock blocktitleh4" >
+                        <h4 class="titleh4 ">Diseñamos tu Ecomerce</h4>
+                    </div>
+                    <img class="shadowblock services" src="../images/campaña_publicitaria_5.jpg">
                 </div>
 
             </div>
         </section>
     </main>
 
-    <footer id="footer">SHOWBIZ PUBLICIDAD DIGITAL</footer>
+    <footer class="container-fluid">
+        <div class="row">
+            <div class="sectionFoot col-lg-4 col-xs-12">
+                <h4 class="infoDirection">Información de contacto</h4>
+                <div>
+                    <p class="infoDirection infoContact">Cra: 35 N°26A-21</p>
+                    <p class="infoDirection infoContact">Cel: 3205268494</p>
+                    <p class="infoDirection infoContact">Email: showbizdi@misitio.com</p>
+                </div>
+            </div>
+            <div class="sectionFoot col-lg-4 col-xs-12">
+                <h4 class="footitle">Siguenos</h4>
+                <div class="icon">
+                    <a  href="#"><img width="50" src="../images/png facebook.png"></a>
+                    <a  href="#"><img width="50" src="../images/png Insta.png"></a>
+                </div>
+            </div>
+            <div class="sectionFoot col-lg-4 col-xs-12 ">
+                <h4 class="footitle" >Te enviamos info a tu email</h4>
+                <form id="newsletter">
+                    <input class="formula" type="email" placeholder="Escribe tu Email">
+                    <button class="formulario" type="submit"> Enviar </button>
+                </form>
+            </div>
+            <div class="copyright">
+                <p>Copyright © 2023 Showbiz Digital</p>
+            </div>
+        </div>
+   </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <!-- Script Animation on scroll -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Script Incializador -->
+   <script>
+    AOS.init();
+  </script>
 </body>
 </html>

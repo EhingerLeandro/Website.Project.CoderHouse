@@ -4,8 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../images/logo_showbiz_2.png">
+    <!-- CDN animaciones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- CDN Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="../styles/css/style.css">
+    <!-- estilos personalizados -->
+    <link rel="stylesheet" type="text/css" href="../styles/css/style.css?=3">
     <title>Contacto</title>
 </head>
 <body>
@@ -23,47 +28,73 @@
     </Header>
     <main>
         <section class="section0"></section>
-        <h2>Contacto</h2>
-        <form>
-            <fieldset>
-                <legend>Datos de Contacto</legend>
-                <label for="nombre">Escribe tu nombre</label>
-                <input type="text" id="nombre" required>
-                <br><br>
-                <label for="e-mail">Tu correo</label>
-                <input type="email" id="e-mail" required>
-            </fieldset>
-            <br>
-            <fieldset>
-                <legend>Servicio solicitado</legend>
-                <!-- select-->
-                <select name="modelo" id="modelo">
-                    <option value="campañas-redes">Campañas para Redes Sociales</option>
-                    <option value="animacion-3d">Animación 3D y 2D para Comerciales</option>
-                    <option value="diseño-grafico">Diseño gráfico con Photoshop o Ilustrator</option>
-                    <option value="website-appmovil">Creación de Páginas web o Aplicaciones moviles </option>
-                </select>
-                <br><br>
-                <!--checkbox-->
-                <label for="asesoria">Asesoria</label>
-                <input type="checkbox" name="asesoria" id="asesoria">
-                <label for="cotizacion">Cotización</label>
-                <input type="checkbox" name="cotizacion" id="cotizacion">
-                <br><br>
-                <!--botón enviar-->
-                <input type="submit" value="Enviar">
-                <!--botón limpiar-->
-                <input type="reset" value="Limpiar">
-            </fieldset>
-        </form>
-
-        <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=VILLAVICENCIO META&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://embed-googlemap.com">embed-googlemap.com</a></div><style>.mapouter{position:static;text-align:right;width:300px;height:200px;}.gmap_canvas {overflow:hidden;background:none!important;width:300px;height:200px;}.gmap_iframe {width:300px!important;height:200px!important;}</style></div>
-
-        <section id="section-contact"></section>
-
+        <h2 class="shadowblock animate__animated animate__fadeInDown">Contacto</h2>
+        <section class="section1">
+            <form>
+                <fieldset class="shadowblock">
+                    <legend>Datos de Contacto</legend>
+                    <label for="nombre">Escribe tu nombre</label>
+                    <input type="text" id="nombre" required>
+                    <br><br>
+                    <label for="e-mail">Tu correo</label>
+                    <input type="email" id="e-mail" required>
+                </fieldset>
+                <br>
+                <fieldset class="shadowblock">
+                    <legend>Servicio solicitado</legend>
+                    <!-- select-->
+                    <select name="modelo" id="modelo">
+                        <option value="campañas-redes">Campañas para Redes Sociales</option>
+                        <option value="animacion-3d">Animación 3D y 2D para Comerciales</option>
+                        <option value="diseño-grafico">Diseño gráfico con Photoshop o Ilustrator</option>
+                        <option value="website-appmovil">Creación de Páginas web o Aplicaciones moviles </option>
+                    </select>
+                    <br><br>
+                    <!--checkbox-->
+                    <label for="asesoria">Asesoria</label>
+                    <input type="checkbox" name="asesoria" id="asesoria">
+                    <label for="cotizacion">Cotización</label>
+                    <input type="checkbox" name="cotizacion" id="cotizacion">
+                    <br><br>
+                    <!--botón enviar-->
+                    <input type="submit" value="Enviar">
+                    <!--botón limpiar-->
+                    <input type="reset" value="Limpiar">
+                </fieldset>
+            </form>
+                <div class="mapouter"><div class="gmap_canvas"><iframe width="100%" height="100%" id="gmap_canvas" src="https://maps.google.com/maps?q=villavicencio&t=&z=10&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://2yu.co">2yu</a><br><style>.mapouter{position:relative;text-align:right;height:100%;width:100%;}</style><a href="https://embedgooglemap.2yu.co/">html embed google map</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:95%;width:95%;}</style></div></div>
+        </section>
     </main>
 
-    <footer id="footer">SHOWBIZ PUBLICIDAD DIGITAL</footer>
+    <footer class="container-fluid">
+        <div class="row">
+            <div class="sectionFoot col-lg-4 col-xs-12">
+                <h4 class="infoDirection">Información de contacto</h4>
+                <div>
+                    <p class="infoDirection infoContact">Cra: 35 N°26A-21</p>
+                    <p class="infoDirection infoContact">Cel: 3205268494</p>
+                    <p class="infoDirection infoContact">Email: showbizdi@misitio.com</p>
+                </div>
+            </div>
+            <div class="sectionFoot col-lg-4 col-xs-12">
+                <h4 class="footitle">Siguenos</h4>
+                <div class="icon">
+                    <a  href="#"><img width="50" src="../images/png facebook.png"></a>
+                    <a  href="#"><img width="50" src="../images/png Insta.png"></a>
+                </div>
+            </div>
+            <div class="sectionFoot col-lg-4 col-xs-12 ">
+                <h4 class="footitle" >Te enviamos info a tu email</h4>
+                <form id="newsletter">
+                    <input class="formula" type="email" placeholder="Escribe tu Email">
+                    <button class="formulario" type="submit"> Enviar </button>
+                </form>
+            </div>
+            <div class="copyright">
+                <p>Copyright © 2023 Showbiz Digital</p>
+            </div>
+        </div>
+   </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>
